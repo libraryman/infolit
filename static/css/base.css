@@ -1513,18 +1513,22 @@ left: 0;
 /* hover/visibility */
 z-index: 3;
 }
-
 #navigation  {
--webkit-animation: fadeIn 6s;
-animation: fadeIn 6s;
+-webkit-animation: fadeIn 16s;
+animation: fadeIn 16s;
 opacity:0;
 }
 #navigation:hover {
-opacity: 0.7;
-}
-#navigation:hover #navigation a:hover  {
 opacity: 1;
-} 
+}
+/* -- navigation arrow always visible? -- */
+
+/*
+#webslides:hover #navigation {
+opacity: 1;
+}
+*/
+
 #counter {
   position: relative;
   display: block;
@@ -1561,6 +1565,8 @@ a#previous {
 #navigation {
 background: url('../images/swipe.svg') no-repeat center top;
 background-size: 4.8rem;
+-webkit-animation: fadeIn 6s;
+animation: fadeIn 6s;
 } 
 #navigation a, #counter {display: none;
  }
