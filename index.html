@@ -61,7 +61,7 @@
   <body>
     <header role="banner">
       <nav role="navigation">
-        <p class="logo"><a href="index.html" title="The anatomy of an intergrated library system">The anatomy of an ILS</a></p>
+        <!-- THIS IS FOR A LINK TO THE SLIDES<p class="logo"><a href="index.html" title="The anatomy of an intergrated library system">The anatomy of an ILS</a></p>-->
         <ul>
           <li class="github">
             <a rel="external" href="https://github.com/libraryman" title="Github">
@@ -106,33 +106,50 @@
           <!-- .end .wrap -->
         </section>
 <!-- SLIDE 2  -->
+    <section class="slide-top">
+      <div class="wrap aligncenter">
+        <h2 class="fadeIn slow">Goals for this Presentation:</h2>
+        <div class="wrap aligncenter fadeInUp">
+        </br></br></br></br>
+        <p>Understand the basic parts (modules) of an Intergrated Library System (ILS)</p>
+        <p>Understand what each module does, and how that fits into the larger system</p>
+        <p></p>
+      </div>
+      </div>
+      <!-- .end .wrap -->
+    </section>
+<!-- SLIDE 3  -->
         <section>
           <div class="wrap">
             <img class="alignright size-50" src="images/catalog_1.png" alt="Library Catalog">
-            <h2>The Library Catalog</h2>
+              <div class="fadeInUp">
+                <h2>The Library Catalog</h2>
             <p>If you are trying to locate books, ebooks, journals, articles, films, the Library Catalog is the place to start</p>
           </div>
+        </div>
           <!-- .end .wrap -->
         </section>
-<!-- SLIDE 3  -->
+<!-- SLIDE 4  -->
         <section class="bg-black aligncenter">
           <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
           <span class="background" style="background-image:url('images/catalog_2.png')"></span>
           <div class="wrap">
-            <h1 class="text-landing text-shadow" style="color:black">Let's search for "Politics"</h1>
-          </div>
-          <!-- .end .wrap -->
-        </section>
-<!-- SLIDE 4  -->
-        <section>
-          <div class="wrap">
-            <img class="alignleft size-50" src="images/catalog_3.png" alt="MEDIA">
-            <h2>Several Different Types of Media</h2>
-            <p>As we can see from the Library Catalog limiters, you can limit your search to books, eBooks, Thesis, Journals, DVDs and many more.</p>
+            <h1 class="text-landing text-shadow fadeIn slow" style="color:black">Let's search for "Politics"</h1>
           </div>
           <!-- .end .wrap -->
         </section>
 <!-- SLIDE 5  -->
+        <section>
+          <div class="wrap">
+            <img class="alignleft size-50" src="images/catalog_3.png" alt="MEDIA">
+            <div class="fadeInUp">
+            <h2>Several Different Types of Media</h2>
+            <p>As we can see from the Library Catalog limiters, you can limit your search to books, eBooks, Thesis, Journals, DVDs and many more.</p>
+          </div>
+        </div>
+          <!-- .end .wrap -->
+        </section>
+<!-- SLIDE 6  -->
         <section>
           <div class="wrap">
             <h3>How do all these different types of media get into the Library Catalog?</h3>
@@ -171,7 +188,7 @@
           </div>
           <!-- .end .wrap -->
         </section>
-<!-- SLIDE 5  -->
+<!-- SLIDE 7  -->
         <section class="slide-top">
           <div class="wrap">
             <div class="content-center">
@@ -183,7 +200,7 @@
           </div>
           <!-- .end .wrap -->
         </section>
-<!--  Slide 6 -->
+<!--  Slide 8 physical resources-->
         <section>
           <div class="wrap">
             <h3>Physical Resources</h3>
@@ -191,306 +208,225 @@
               <!-- li>a? Add blink = <ul class="flexblock steps blink">-->
               <li>
                 <span>
-                  <svg class="fa-heartbeat">
-                    <use xlink:href="#fa-heartbeat"></use>
+                  <svg class="fa-money">
+                    <use xlink:href="#fa-money"></use>
                   </svg>
                 </span>
-                <h2>01. Passion</h2>
-                <p>When you're really passionate about your job, you can change the world.</p>
+                <h2>01. Purchase</h2>
+                <p>Libraries purchase print books and journals from serveral different places, some are even purchased through Amazon.</p>
               </li>
               <li>
                 <div class="process step-2"></div>
                 <span>
-                  <svg class="fa-magic">
-                    <use xlink:href="#fa-magic"></use>
+                  <svg class="fa-book">
+                    <use xlink:href="#fa-book"></use>
                   </svg>
                 </span>
-                <h2>02. Purpose</h2>
-                <p>Why does this business exist? How are you different? Why matters?</p>
+                <h2>02. Cataloging Print Resources</h2>
+                <p>(ORIGINAL CATALOGING)</p>
+
+                <p>For material that has not been cataloged before, a highly trained librarian will create and input the data to create a biblographic record then set the holdings</p>
               </li>
               <li>
                 <div class="process step-3"></div>
                 <span>
-                  <svg class="fa-balance-scale">
-                    <use xlink:href="#fa-balance-scale"></use>
+                  <svg class="fa-book">
+                    <use xlink:href="#fa-book"></use>
                   </svg>
                 </span>
-                <h2>03. Principles</h2>
-                <p>Leadership through usefulness, openness, empathy, and good taste.</p>
+                <h2>03. Cataloging Print Resources</h2>
+                <p>(COPY CATALOGING)</p>
+                <p>Depending on the type of physical resource being cataloged, one may use biblographic records from resources already cataloged by other schools and then set the holdings or upload the record to the ILS</p>
+                <!--<p>With OCLC's WMS you only need to set the holdings for the item to appear in the Library Catalog</p>
+                <p>Libraries using other intergrated library systems would need to upload the new bibliographic record to their ILS.</p>-->
               </li>
               <li>
                 <div class="process step-4"></div>
                 <span>
-                  <svg class="fa-cog">
-                    <use xlink:href="#fa-cog"></use>
+                  <svg class="fa-university">
+                    <use xlink:href="#fa-university"></use>
                   </svg>
                 </span>
-                <h2>04. Process</h2>
-                <ul>
-                  <li>Useful</li>
-                  <li>Easy</li>
-                  <li>Fast</li>
-                  <li>Beautiful</li>
-                </ul>
+                <h2>04. Now available in the Public Library Catalog</h2>
+                <p>The material is now discoverable through the Library Catalog as well as WorldCat.org, allowing all libraries and universities to discover this material.</p>
               </li>
             </ul>
           </div>
           <!-- .end .wrap -->
         </section>
-        <!--  SLIDE 7-->
+<!--  SLIDE 9 Electronic Resources-->
         <section>
           <div class="wrap">
-            <h3>Digital Resources</h3>
+            <h3>Electronic Resources</h3>
             <ul class="flexblock steps">
               <!-- li>a? Add blink = <ul class="flexblock steps blink">-->
               <li>
                 <span>
-                  <svg class="fa-heartbeat">
-                    <use xlink:href="#fa-heartbeat"></use>
+                  <svg class="fa-money">
+                    <use xlink:href="#fa-money"></use>
                   </svg>
                 </span>
-                <h2>01. Passion</h2>
-                <p>When you're really passionate about your job, you can change the world.</p>
+                <h2>01. Purchase</h2>
+                <p>Libraries purchase electronic journals and articles mainly from database vendors, who package and index the electronic journals and articles</p>
               </li>
               <li>
                 <div class="process step-2"></div>
                 <span>
-                  <svg class="fa-magic">
-                    <use xlink:href="#fa-magic"></use>
+                  <svg class="fa-cloud">
+                    <use xlink:href="#fa-cloud"></use>
                   </svg>
                 </span>
-                <h2>02. Purpose</h2>
-                <p>Why does this business exist? How are you different? Why matters?</p>
+                <h2>02. The Knowledge Base</h2>
+                <p>OCLC maintains a databases containing most of the electronic databases subscription packages</p>
+                <p>Since the content of these databases constantly changes, by selecting the Knowledge Base holdings for a particular database, the holding will always be up to date</p>
+              </li>
+              <li>
+                <!--<div class="process step-3"></div>
+                <span>
+                  <svg class="fa-cloud">
+                    <use xlink:href="#fa-cloud"></use>
+                  </svg>
+                </span>
+                <h2>03. Setting/Uploading Holdings</h2>
+                <p>With OCLC's WMS you only need to set the holdings for the item to appear in the Library Catalog</p>
+                <p>Libraries using other intergrated library systems would need to upload the new bibliographic record to their ILS.</p>
+              </li>
+              <li>-->
+                <div class="process step-4"></div>
+                <span>
+                  <svg class="fa-university">
+                    <use xlink:href="#fa-university"></use>
+                  </svg>
+                </span>
+                <h2>04. Now available in the Public Library Catalog</h2>
+                <p>The material is now discoverable through the Library Catalog as well as WorldCat.org, allowing all libraries and universities to discover this material.</p>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap-->
+        </section>
+<!-- Slide 10 circulation-->
+        <section>
+          <div class="wrap">
+            <h3>Now that all of these differnt types of media are in the Library Catalog, how do patrons check them out?</h3>
+            <ul class="flexblock gallery">
+              <li>
+                <a href="#">
+                  <figure>
+                    <img alt="Thumbnail " src="images/books.jpg">
+                    <div class="overlay">
+                      <h2>Print Books & eBooks</h2>
+                    </div>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <figure>
+                    <img alt="Thumbnail" src="images/journals.jpg">
+                    <span class="overlay">
+                      <h2>Journals & Articles</h2>
+                    </span>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <figure>
+                    <img alt="Thumbnail" src="images/media_1.jpg">
+                    <span class="overlay">
+                      <h2>Movies, DVDs and other Media</h2>
+                    </span>
+                  </figure>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+<!-- Slide 11 circulation -->
+        <section>
+          <div class="wrap">
+            <h3>Patron Records</h3>
+            <ul class="flexblock steps">
+              <!-- li>a? Add blink = <ul class="flexblock steps blink">-->
+              <li>
+                <span>
+                  <svg class="fa-user">
+                    <use xlink:href="#fa-user"></use>
+                  </svg>
+                </span>
+                <h2>01. Patron File</h2>
+                <p>The Library must obtain or compile are file with all of the enrolled student's information.</p>
+              </li>
+              <li>
+                <div class="process step-2"></div>
+                <span>
+                  <svg class="fa-file-excel-o">
+                    <use xlink:href="#fa-file-excel-o"></use>
+                  </svg>
+                </span>
+                <h2>02. Normalizing the Data</h2>
+                <p>Once the patron information is consolidated into one file, the data must be formatted according to the ILS's specifications</p>
               </li>
               <li>
                 <div class="process step-3"></div>
                 <span>
-                  <svg class="fa-balance-scale">
-                    <use xlink:href="#fa-balance-scale"></use>
+                  <svg class="fa-cloud-upload">
+                    <use xlink:href="#fa-cloud-upload"></use>
                   </svg>
                 </span>
-                <h2>03. Principles</h2>
-                <p>Leadership through usefulness, openness, empathy, and good taste.</p>
+                <h2>03. Uploading the patron file</h2>
+                <p>The patron information is uploaded to the ILS, usually by FTP to the remote server</p>
               </li>
               <li>
                 <div class="process step-4"></div>
                 <span>
-                  <svg class="fa-cog">
-                    <use xlink:href="#fa-cog"></use>
+                  <svg class="fa-university">
+                    <use xlink:href="#fa-university"></use>
                   </svg>
                 </span>
-                <h2>04. Process</h2>
-                <ul>
-                  <li>Useful</li>
-                  <li>Easy</li>
-                  <li>Fast</li>
-                  <li>Beautiful</li>
-                </ul>
+                <h2>04. Now you can check out books</h2>
+                <p>With the patron information loaded into the ILS, using the circulation module, Library staff are able to check out books and other psychical library material to students.</p>
               </li>
             </ul>
           </div>
-          <!-- .end .wrap -->
+          <!-- .end .wrap-->
         </section>
-        <!-- Slide 8 -->
-        <section>
+<!-- Slide 12  other services-->
+        <section class="slide-top">
           <div class="wrap">
-            <h2>Features</h2>
-            <ul class="flexblock features">
-              <li>
-                <div>
-                  <h2>
-                    <span>&rarr;</span>
-                    Simple Navigation
-                  </h2>
-                  with arrow keys and swipe.
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <svg class="fa-link">
-                      <use xlink:href="#fa-link"></use>
-                    </svg>
-                    Permalinks
-                  </h2>
-                  Go to a specific slide.
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <svg class="fa-clock-o">
-                      <use xlink:href="#fa-clock-o"></use>
-                    </svg>
-                    Slide Counter
-                  </h2>
-                  Current/Total number.
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <span>40<sup>+</sup></span>
-                    Beautiful Components
-                  </h2>
-                  Covers, cards, quotes...
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <svg class="fa-text-height">
-                      <use xlink:href="#fa-text-height"></use>
-                    </svg>
-                    Vertical Rhythm
-                  </h2>
-                  Use multiples of 8.
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h2>
-                    <span>500<sup>+</sup></span>
-                    SVG Icons
-                  </h2>
-                  Font Awesome Kit.
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section>
-          <div class="wrap">
-            <h2><strong>WebSlides Demos</strong></h2>
-            <p>Contribute on <a href="https://github.com/jlantunez/webslides" title="Contribute on Github">Github</a>. <span class="alignright"><a href="demos/index.html" title="WebSlides Demos">View all &rsaquo;</a></span></p>
-            <ul class="flexblock gallery">
-              <li>
-                <a href="demos/why-webslides.html" title="Why WebSlides?">
-                  <figure>
-                    <img alt="Thumbnail Why WebSlides?" src="https://webslides.tv/static/images/demos-why.png">
-                    <figcaption>
-                      <h2>Why WebSlides?</h2>
-                    </figcaption>
-                  </figure>
-                </a>
-              </li>
-              <li>
-                <a href="demos/landings.html" title="Landings">
-                  <figure>
-                    <img alt="Thumbnail Landings" src="https://webslides.tv/static/images/demos-landings.png">
-                    <figcaption>
-                      <h2>Landings</h2>
-                    </figcaption>
-                  </figure>
-                </a>
-              </li>
-              <li>
-                <a href="demos/portfolios.html" title="Portfolios">
-                  <figure>
-                    <img alt="Thumbnail Portfolios" src="https://webslides.tv/static/images/demos-portfolios.png">
-                    <figcaption>
-                      <h2>Portfolios</h2>
-                    </figcaption>
-                  </figure>
-                </a>
-              </li>
-              <li>
-                <a href="demos/keynote.html" title="Apple Keynote">
-                  <figure>
-                    <img alt="Thumbnail Apple Keynote" src="https://webslides.tv/static/images/demos-apple.png">
-                    <figcaption>
-                      <h2>Apple Keynote</h2>
-                    </figcaption>
-                  </figure>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <!-- .end .wrap -->
-        </section>
-        <section>
-          <div class="wrap">
-            <div class="grid vertical-align">
-              <div class="column">
-                <h4>
-                  <svg class="fa-life-ring">
-                    <use xlink:href="#fa-life-ring"></use>
-                  </svg>
-                  <strong>Guides</strong>
-                </h4>
-                <p>If you need some help, here's just two tutorials. Just a basic knowledge of HTML is required:</p>
-                <ul class="description">
-                  <li><a href="demos/components.html" title="WebSlides Components">WebSlides Components</a>.</li>
-                  <li><a href="demos/classes.html" title="WebSlides Classes">WebSlides Classes</a>.</li>
-                </ul>
-              </div>
-              <div class="column">
-                <figure><img src="static/images/setup.png" alt="WebSlides Files"></figure>
-              </div>
-              <div class="column">
-                <h4>
-                  <svg class="fa-cubes">
-                    <use xlink:href="#fa-cubes"></use>
-                  </svg>
-                  <strong>Built to expand</strong>
-                </h4>
-                <p>The best way to <strong>inspire with your content</strong> is to connect on a personal level. We love these solutions:</p>
-                <ul class="description">
-                  <li>Background images: <a href="http://unsplash.com">Unsplash</a>.</li>
-                  <li>CSS animations: <a href="https://daneden.github.io/animate.css/">Animate.css</a>.</li>
-                </ul>
-              </div>
+            <div class="content-center">
+              <h2 class="fadeIn slow">How does the Library Catalog know that the Book was checked out?</h2></br></br></br></br>
+              <p class="fadeInUp">The Circulation Module connects to the Library Catalog and updates the holding location</p>
             </div>
-            <!--end .grid -->
-          </div>
-        </section>
-        <section class="aligncenter">
-          <!-- .wrap = container 1200px -->
-          <div class="wrap">
-            <h2><strong>Ready to Start?</strong> </h2>
-            <p class="text-intro">Create your own presentation instantly. <br>120+ premium slides ready to use.</p>
-            <p>
-              <a href="https://github.com/jlantunez/webslides/archive/master.zip" class="button" title="Download WebSlides">
-                <svg class="fa-cloud-download">
-                  <use xlink:href="#fa-cloud-download"></use>
-                </svg>
-                Free Download
-              </a>
-              <span class="try">
-                <a href="https://www.paypal.me/jlantunez/8" title="Thanks :)">
-                  <svg class="fa-paypal">
-                    <use xlink:href="#fa-paypal"></use>
-                  </svg>
-                  Pay what you want.
-                </a>
-              </span>
-            </p>
           </div>
           <!-- .end .wrap -->
         </section>
-        <section class="slide-bottom">
+<!-- Slide 13 high level overview-->
+        <section class="slide-top">
           <div class="wrap">
-            <div class="content-right text-serif">
-              <h2>
-                <strong>Thanks.</strong>
-                <a target="_blank" title="Share on Twitter" href="https://twitter.com/intent/tweet?text=Finally,%20everything%20you%20need%20to%20make%20HTML%20presentations%20in%20a%20fast/beautiful%20way.%20@WebSlides%20=%20Good%20karma%20&mdash;%20https://webslides.tv">
-                  <svg class="fa-twitter">
-                    <use xlink:href="#fa-twitter"></use>
-                  </svg>
-                </a>
-              </h2>
-              <p>People share content that makes them feel inspired. WebSlides is a very effective way to engage young audiences, customers, and teams. Best, <a href="https://twitter.com/jlantunez">@jlantunez</a>.</p>
-              <figure>
-                <a href="http://linkedin.com/in/jlantunez" title="LinkedIN — José Luis Antúnez">
-                  <img class="aligncenter fadeInUp" src="https://webslides.tv/static/images/signature.png" alt="Signature">
-                </a>
-              </figure>
+            <div class="content-center">
+              <h2 class="fadeIn slow"> A High-Level View of an ILS</h2>
+              <img src="images/overview.png" alt="High-Level Library Catalog">
             </div>
-            <!-- .end .content-right -->
           </div>
           <!-- .end .wrap -->
         </section>
-
+<!-- SLIDE 14 Questions  -->
+        <section class="aligncenter bg-black">
+            <span class="background anim" style="background-image:url('https://source.unsplash.com/n9WPPWiPPJw/')"></span>
+            <!--.wrap = container 1200px -->
+            <div class="wrap">
+              <h1>Questions?</h1>
+            </br>
+            </br>
+            </br>
+            <p>slides available at lbcc.jeffreystephensabol.org</p>
+            </div>
+          <!-- .end .wrap -->
+        </section>
+<!-- Slide end -->
       </article>
       <!-- end article -->
     </main>
